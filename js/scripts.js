@@ -19,3 +19,8 @@ console.log(userLastName);
 // Colors
 const userFavColor = prompt('Inserisci il tuo colore preferito', 'Blallo');
 console.log(userFavColor);
+
+// # Logic
+
+const generatedPwd = userFirstName + userLastName + userFavColor + pwdNumber;
+console.log(generatedPwd);
