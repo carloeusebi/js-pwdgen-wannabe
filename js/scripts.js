@@ -11,3 +11,6 @@ console.log(userFirstName);
 
 const userLastName = prompt('Inserisci il tuo cognome', 'Eusebi');
 console.log(userLastName);
+
+const userFavColor = prompt('Inserisci il tuo colore preferito', 'Blallo');
+console.log(userFavColor);
