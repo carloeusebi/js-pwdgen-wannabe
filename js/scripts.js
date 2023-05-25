@@ -24,3 +24,7 @@ console.log(userFavColor);
 
 const generatedPwd = userFirstName + userLastName + userFavColor + pwdNumber;
 console.log(generatedPwd);
+
+// # Printing generated password
+
+pwdPlaceholder.innerText = generatedPwd;
